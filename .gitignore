@@ -1,0 +1,21 @@
+# Ignora a pasta de build do CMake
+build/
+
+# Arquivos de cache e de compilação
+*.o
+*.a
+*.so
+*.dll
+*.out
+*.exe
+
+# Arquivos temporários e de editor
+*~
+*.log
+.vscode/
+
+# Arquivos de cache do CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
