@@ -4,11 +4,11 @@ cmake_minimum_required(VERSION 3.10)
 # Define o nome do projeto e a sua versão.
 project(blockchain VERSION 1.0)
 
-# Define o padrão C++ a ser usado. C++17 é uma boa escolha para projetos modernos.
+# Define o padrão C++ a ser usado.
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Adiciona os arquivos de código-fonte
+# Cria um executável com todos os arquivos de código-fonte necessários.
 add_executable(blockchain
     src/main.cpp
     src/VirtualMachine.cpp
