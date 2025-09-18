@@ -16,7 +16,7 @@ O objetivo é simular os componentes essenciais de um blockchain, como a emissã
 ## 🛠️ Tecnologias Utilizadas
 
 * **Linguagem:** C++ (com padrão C++11 ou superior)
-* **Sistema de Build:** CMake
+* **Sistema de Build:** CMake 
 
 ## 🚀 Como Compilar e Executar
 
